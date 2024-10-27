@@ -8,6 +8,7 @@
     "buildable_types": "CmdBuild & Custom58",
     "show_in_orbital_layer": true,
     "armor_type": "AT_Commander",
+    "wreckage_health_frac": 1,
     "attachable": {
         "offsets": {
             "root": [
