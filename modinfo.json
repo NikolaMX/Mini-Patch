@@ -1,0 +1,29 @@
+{
+	"identifier": "orbitalDepthv2",
+	"display_name": "Orbital Rework Testmod v2",
+	"description": "PTE stuff like things",
+	"author": "Anonemous2, Nik, Ferretmaster",
+	"signature": "not yet implemented",
+	"forum": "",
+	"priority": 101,
+	"icon": "https://imgur.com/W7EPFhp",
+	"titansOnly": true,
+	"category": [
+		"balance",
+		"unit",
+		"expansion",
+		"titans"
+	],
+	"scenes": {
+		"shared_build": [
+			"coui://ui/mods/testmod/shared_build.js"
+		],
+		"icon_atlas": [
+			"coui://ui/mods/testmod/icon_atlas.js"
+		]
+	},
+	"context": "server",
+	"date": "2024-10-28",
+	"build": "120799",
+	"version": "0.1.0"
+}
