@@ -38,7 +38,7 @@
         "ORDER_Assist"
     ],
     "transportable": {
-        "size": 1
+        "size": 12
     },
     "buildable_types": "(Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild) & Custom58",
     "physics": {

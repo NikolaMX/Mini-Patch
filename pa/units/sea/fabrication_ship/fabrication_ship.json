@@ -59,7 +59,7 @@
         "allow_pushing": true
     },
     "transportable": {
-        "size": 1
+        "size": 4
     },
     "recon": {
         "observer": {

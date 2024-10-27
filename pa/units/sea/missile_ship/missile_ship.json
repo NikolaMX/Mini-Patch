@@ -23,8 +23,26 @@
         "UNITTYPE_Tactical",
         "UNITTYPE_FactoryBuild",
         "UNITTYPE_Radar",
-        "UNITTYPE_AirDefense"
+        "UNITTYPE_AirDefense",
+        "UNITTYPE_OrbitalDefense"
     ],
+    "attachable":{
+        "offsets":{
+           "root":[
+              0,
+              0,
+              0
+           ],
+           "head":[
+              0,
+              0,
+              3.5
+           ]
+        }
+    },
+    "transportable": {
+        "size": 12
+    },
     "physics": {
         "shape": "sphere",
         "radius": 3
@@ -84,6 +102,16 @@
     "tools": [
         {
             "spec_id": "/pa/units/sea/missile_ship/missile_ship_tool_weapon.json",
+            "aim_bone": "socket_missile_muzzle01",
+            "record_index": 0,
+            "fire_event": "fired0",
+            "muzzle_bone": [
+                "socket_missile_muzzle01",
+                "socket_missile_muzzle02"
+            ]
+        },
+        {
+            "spec_id": "/pa/units/sea/missile_ship/missile_ship_tool_weapon_orbital.json",
             "aim_bone": "socket_missile_muzzle01",
             "record_index": 0,
             "fire_event": "fired0",

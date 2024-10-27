@@ -22,6 +22,23 @@
         "ORDER_Assist",
         "ORDER_Use"
     ],
+    "attachable":{
+        "offsets":{
+           "root":[
+              0,
+              0,
+              0
+           ],
+           "head":[
+              0,
+              0,
+              3.5
+           ]
+        }
+    },
+    "transportable": {
+        "size": 12
+    },
     "guard_layer": "WL_AnySurface",
     "navigation": {
         "type": "hover",

@@ -1,6 +1,6 @@
 {
     "base_spec": "/pa/tools/base_missile_tactical_turret/base_missile_tactical_turret.json",
-    "ammo_id": "/pa/units/sea/missile_ship/missile_ship_ammo.json",
+    "ammo_id": "/pa/units/sea/missile_ship/missile_ship_ammo_orbital.json",
     "ammo_source": "infinite",
     "rate_of_fire": 0.25,
     "max_range": 260,
@@ -13,15 +13,13 @@
     "spread_fire": true,
     "auto_attack": true,
     "target_layers": [
-        "WL_LandHorizontal",
-        "WL_WaterSurface",
-        "WL_Air"
-    ],
+         "WL_Orbital"
+     ],
     "target_priorities": [
-        "Air & (Tactical | Heavy | MissileDefense)",
-        "Mobile - Air",
-        "Structure - Wall",
-        "Mobile & Air",
-        "Wall"
+        "Orbital & LaserPlatform",
+        "Orbital & Transport",
+        "Structure & SurfaceDefense",
+        "Orbital & Mobile",
+        "Orbital & Structure"
     ]
 }
