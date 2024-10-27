@@ -53,7 +53,7 @@
         "ORDER_FireSecondaryWeapon"
     ],
     "transportable": {
-        "size": 1
+        "size": 18
     },
     "navigation": {
         "type": "amphibious",
