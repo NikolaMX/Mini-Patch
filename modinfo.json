@@ -1,10 +1,9 @@
 {
-	"identifier": "orbitalDepthv2",
-	"display_name": "Orbital Rework Testmod v2",
+	"identifier": "Proto-Patch",
+	"display_name": "Pre-Orbital Rework patch",
 	"description": "PTE stuff like things",
-	"author": "Anonemous2, Nik, Ferretmaster",
+	"author": "Anonemous2",
 	"signature": "not yet implemented",
-	"forum": "",
 	"priority": 101,
 	"icon": "https://imgur.com/W7EPFhp",
 	"titansOnly": true,
@@ -23,7 +22,7 @@
 		]
 	},
 	"context": "server",
-	"date": "2024-10-28",
+	"date": "2024-05-13",
 	"build": "120799",
 	"version": "0.1.0"
 }

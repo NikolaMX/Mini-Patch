@@ -5,10 +5,10 @@
     "strategic_icon_priority": 0,
     "max_health": 12500,
     "build_metal_cost": 25000,
+    "wreckage_health_frac": 1.0,
     "buildable_types": "CmdBuild & Custom58",
     "show_in_orbital_layer": true,
     "armor_type": "AT_Commander",
-    "wreckage_health_frac": 1,
     "attachable": {
         "offsets": {
             "root": [
@@ -53,7 +53,7 @@
         "ORDER_FireSecondaryWeapon"
     ],
     "transportable": {
-        "size": 18
+        "size": 1
     },
     "navigation": {
         "type": "amphibious",
