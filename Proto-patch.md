@@ -27,10 +27,11 @@ All units now leave the same amount of metal in their wreckage equal to half of 
 
 <> Commander <>
 
-Base Commander - DONE
+Base Commander - EXPERIMENTAL - DONE
 - `wreckage_health_frac` added and set to 1 (increase from the default 0.5)
-
-
+- death nuke `splash_radius` increased from 110 to 130
+- death nuke `damage` icnreased from 2000 to 3000
+- `splash_damages_allies` set to `false`
 
 
 
@@ -40,17 +41,17 @@ Air
 `wreckage_health_frac` increased from 0.7 to 1
 
 
-- Fabrication Aircraft - EXPERIMENTAL - DONE
+- Fabrication Aircraft - DONE
 `max_health` increased from 25 to 100
 
 
-- Firefly - EXPERIMENTAL - DONE
+- Firefly - DONE
 `UNITTYPE_Offense` added
 `max_health` increased from 20 to 85
 `build_metal_cost` increased from 60 to 100 
 
 
-- Pelican - EXPERIMENTAL - DONE
+- Pelican - DONE
 `UNITTYPE_Offense` added
 
 
@@ -59,7 +60,7 @@ Added `maintain_priority_target` and set it to `false` (the same fix we gave the
 `UNITTYPE_Offense` added
 
 
-- Hornet - EXPERIMENTAL - DONE
+- Hornet - DONE
 `max_health` increased from 500 to 600
 
 
@@ -87,8 +88,9 @@ Structures
 `build_metal_cost` increased from 800 to 1000
 
 
-- Anti-Nuke Launcher - DONE
+- Anti-Nuke Launcher - REMOVED CHANGE
 interceptor missile `build_metal_cost` increased from 5000 to 10000
+
 
 - Catapult - DONE
 `rate_of_fire` decreased from 0.4 to 0.25
@@ -98,6 +100,7 @@ interceptor missile `build_metal_cost` increased from 5000 to 10000
     `Mobile - Air`
     `Structure - Wall`
     `Wall`
+
 `initial_velocity` increased from 80 to 120.0
 `max_velocity` increased from 80 to 120.0
 
@@ -125,7 +128,7 @@ Land
 - Stinger - EXPERIMENTAL - DONE
 removed `UNITTYPE_58` (stinger disabled from PvP)
 
-- Gill-E - EXPERIMENTAL
+- Gill-E - EXPERIMENTAL - NOT IMPLEMENTED YET
 Anti-missile weapon changed from beam to homing. Multiple Gill-Es will no longer try to intercept the same missile
 
 
@@ -138,7 +141,7 @@ Anti-missile weapon changed from beam to homing. Multiple Gill-Es will no longer
 - Slammer - DONE
 `UNITTYPE_Sub` added. Will no longer be ignored by torpedo weapons when submerged
 
-- Locust - DONE
+- Locust - DONE - REVIEW
 `build_metal_cost` increased from 260 to 500
 `max_health` increased from 80 to 160
 `rate_of_fire` increased from 5 to 10
@@ -151,9 +154,10 @@ Anti-missile weapon changed from beam to homing. Multiple Gill-Es will no longer
 `WL_Air` added to target layers
 
 
-- Drifter - EXPERIMENTAL - DONE
+- Drifter - DONE
 `damage` increased from 120 to 125
 `initial_velocity` increased from 150 to 200
+`max_velocity` increased from 150 to 200
 `target_priorities` updated to
     `Mobile & Advanced`
     `Commander`
@@ -170,14 +174,45 @@ Sea
 
 
 
+- Naval fab - EXPERIMENTAL - DONE
+`max_health` increased from 100 to 150 - FERRET DOESNT LIKE HP
+`move_speed` increased from 90 to 120
+`turn_speed` increased from 90 to 120
 
-- Typhoon - EXPERIMENTAL - NOT ADDED YET
-Updated description to reflect it no longer attacks land
-`WL_LandHorizontal` target layer removed
 
-- Squall - NOT ADDED YET
-description updated to reflect new targeting
+
+- Piranha - EXPERIMENTAL - DONE
+`move_speed` decreased from 20 to 18
+`max_health` decreased from 175 to 150
+
+
+
+- Narwhal - DONE
+AA weapon `rate_of_fire` decreased from 3 to 2.5
+AA weapon `max_range` decreased from 150 to 120
+torpedo weapon `damage` decreased from 250 to 200
+
+
+- Stingray - DONE
+`initial_velocity` increased from 80 to 120
+`max_velocity` increased from 80 to 120
+`lifetime` decreased from 60 to 40
+
+
+
+
+- Typhoon - REVISED - DONE
+
+- Squall
+
 `build_metal_cost` updated from 90 to 30 to reflect the real metal cost of squalls
-`WL_WaterSurface` and `WL_LandHorizontal` target layers removed from the missile weapon
-`guard_radius` decreased from 250 to 50
-`surface_and_air` and `underwater` view range decreased from 150 to 10
+`guard_radius` decreased from 250 to 100
+`surface_and_air` and `underwater` view range decreased from 150 to 50
+
+
+
+
+Orbital
+
+- Omega - DONE
+side-guns `max_range` decreased from 150 to 130
