@@ -176,7 +176,7 @@ Sea
 
 - Naval fab - EXPERIMENTAL - DONE
 `max_health` increased from 100 to 150 - FERRET DOESNT LIKE HP
-`move_speed` increased from 90 to 120
+`move_speed` increased from 10 to 12
 `turn_speed` increased from 90 to 120
 
 
