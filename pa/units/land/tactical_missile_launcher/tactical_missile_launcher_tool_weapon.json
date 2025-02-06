@@ -2,7 +2,7 @@
     "base_spec": "/pa/tools/base_missile_tactical_turret/base_missile_tactical_turret.json",
     "tool_type": "TOOL_Weapon",
     "ammo_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo.json",
-    "rate_of_fire": 0.4,
+    "rate_of_fire": 0.25,
     "max_range": 280,
     "yaw_rate": 180,
     "pitch_rate": 180,
