@@ -62,6 +62,7 @@ Added `maintain_priority_target` and set it to `false` (the same fix we gave the
 
 - Hornet - DONE
 `max_health` increased from 500 to 600
+Updated missile FX and model
 
 
 - Horsefly - EXPEIMENTAL - DONE
@@ -103,7 +104,7 @@ interceptor missile `build_metal_cost` increased from 5000 to 10000
 
 `initial_velocity` increased from 80 to 120.0
 `max_velocity` increased from 80 to 120.0
-
+Updated missile FX and model
 
 
 Land
@@ -120,7 +121,6 @@ Land
 - Atlas - TODAY
 `wreckage_health_frac` removed, will now be the same as Base Bot
 
-
 - Bot Fabricator - EXPERIMENTAL - DONE
 `energy` use when building decreased from 600 to 525
 `metal` use when building decreased from 8 to7
@@ -130,7 +130,6 @@ removed `UNITTYPE_58` (stinger disabled from PvP)
 
 - Gill-E - EXPERIMENTAL - NOT IMPLEMENTED YET
 Anti-missile weapon changed from beam to homing. Multiple Gill-Es will no longer try to intercept the same missile
-
 
 - Skitter - DONE
 `UNITTYPE_Offense` added (will now select with other combat units)
@@ -147,7 +146,6 @@ Anti-missile weapon changed from beam to homing. Multiple Gill-Es will no longer
 `rate_of_fire` increased from 5 to 10
 `surface_and_air` and `underwater` vision increased from 40 to 45
 
-
 - Stryker - EXPERIMENTAL - DONE
 `move_speed` decreased from 17 to 15
 `max_range` increased from 75 to 80
@@ -158,12 +156,14 @@ Anti-missile weapon changed from beam to homing. Multiple Gill-Es will no longer
 `damage` increased from 120 to 125
 `initial_velocity` increased from 150 to 200
 `max_velocity` increased from 150 to 200
+`idle_aim_delay` increased from 3 to 5
 `target_priorities` updated to
     `Mobile & Advanced`
     `Commander`
     `Mobile - Air`
     `Structure - Wall`
     `Wall`
+Weapon and ammo files changed from ballistic to seeking
 
 
 
@@ -193,11 +193,12 @@ AA weapon `max_range` decreased from 150 to 120
 torpedo weapon `damage` decreased from 250 to 200
 
 
+
 - Stingray - DONE
 `initial_velocity` increased from 80 to 120
 `max_velocity` increased from 80 to 120
 `lifetime` decreased from 60 to 40
-
+Updated missile FX and model
 
 
 
