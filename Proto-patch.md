@@ -107,6 +107,12 @@ interceptor missile `build_metal_cost` increased from 5000 to 10000
 Updated missile FX and model
 
 
+- Advanced Torpedo Launcher
+`surface_and_air` sight reduced from 200 to 160
+`underwater` sight reduced from 200 to 160
+
+
+
 Land
 
 - Base Bot - DONE
