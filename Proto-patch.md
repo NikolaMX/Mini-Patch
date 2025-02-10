@@ -84,6 +84,10 @@ can now target air units
 
 Structures
 
+- Air Factory
+`factory_cooldown_time` increased from 2 to 3
+
+
 - Teleporter - DONE
 `max_health` decreased from 9750 to 7000    
 `build_metal_cost` increased from 800 to 1000
