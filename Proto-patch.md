@@ -85,7 +85,7 @@ can now target air units
 Structures
 
 - Air Factory
-`factory_cooldown_time` increased from 2 to 3
+`factory_cooldown_time` increased from 2 to 4
 
 
 - Teleporter - DONE
@@ -134,6 +134,9 @@ Land
 - Bot Fabricator - EXPERIMENTAL - DONE
 `energy` use when building decreased from 600 to 525
 `metal` use when building decreased from 8 to7
+
+- Spark - EXPERIMENTAL - DONE
+`max_range` increased from 65 to 67.5
 
 - Stinger - EXPERIMENTAL - DONE
 removed `UNITTYPE_58` (stinger disabled from PvP)
@@ -194,6 +197,7 @@ Sea
 - Piranha - EXPERIMENTAL - DONE
 `move_speed` decreased from 20 to 18
 `max_health` decreased from 175 to 150
+projectile `lifetime` decreased from 3 to 1.5 s
 
 
 
