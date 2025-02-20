@@ -137,6 +137,7 @@ Land
 
 - Spark - EXPERIMENTAL - DONE
 `max_range` increased from 65 to 67.5
+ammo `lifetime` increased from 0.5 to 1 (restored to original value now that the AoE bug is fixed)
 
 - Stinger - EXPERIMENTAL - DONE
 removed `UNITTYPE_58` (stinger disabled from PvP)
