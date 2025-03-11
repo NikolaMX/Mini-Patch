@@ -27,10 +27,12 @@ All units now leave the same amount of metal in their wreckage equal to half of 
 
 <> Commander <>
 
-Base Commander - EXPERIMENTAL - DONE
+Base Commander - DONE
 - `wreckage_health_frac` added and set to 1 (increase from the default 0.5)
 - death nuke `splash_radius` increased from 110 to 130
 - death nuke `damage` icnreased from 2000 to 3000
+- death nuke `initial_radius` increased from 20.0 to 30
+- death nike `full_damage_splash_radius` increased from 20 to 30
 - `splash_damages_allies` set to `false`
 
 
@@ -87,14 +89,13 @@ Structures
 - Air Factory
 `factory_cooldown_time` increased from 2 to 4
 
+- Advanced Air Factory
+`factory_cooldown_time` increased from 2 to 4
+
 
 - Teleporter - DONE
 `max_health` decreased from 9750 to 7000    
 `build_metal_cost` increased from 800 to 1000
-
-
-- Anti-Nuke Launcher - REMOVED CHANGE
-interceptor missile `build_metal_cost` increased from 5000 to 10000
 
 
 - Catapult - DONE
@@ -128,19 +129,16 @@ Land
 - Ares - DONE
 `wreckage_health_frac` removed, will now be the same as Base Vehicle
 
-- Atlas - TODAY
+- Atlas - DONE
 `wreckage_health_frac` removed, will now be the same as Base Bot
 
 - Bot Fabricator - EXPERIMENTAL - DONE
 `energy` use when building decreased from 600 to 525
 `metal` use when building decreased from 8 to7
 
-- Spark - EXPERIMENTAL - DONE
+- Spark - DONE
 `max_range` increased from 65 to 67.5
 ammo `lifetime` increased from 0.5 to 1 (restored to original value now that the AoE bug is fixed)
-
-- Stinger - EXPERIMENTAL - DONE
-removed `UNITTYPE_58` (stinger disabled from PvP)
 
 - Gill-E - EXPERIMENTAL - NOT IMPLEMENTED YET
 Anti-missile weapon changed from beam to homing. Multiple Gill-Es will no longer try to intercept the same missile
@@ -154,13 +152,13 @@ Anti-missile weapon changed from beam to homing. Multiple Gill-Es will no longer
 - Slammer - DONE
 `UNITTYPE_Sub` added. Will no longer be ignored by torpedo weapons when submerged
 
-- Locust - DONE - REVIEW
+- Locust - DONE
 `build_metal_cost` increased from 260 to 500
 `max_health` increased from 80 to 160
 `rate_of_fire` increased from 5 to 10
 `surface_and_air` and `underwater` vision increased from 40 to 45
 
-- Stryker - EXPERIMENTAL - DONE
+- Stryker - DONE
 `move_speed` decreased from 17 to 15
 `max_range` increased from 75 to 80
 `WL_Air` added to target layers
@@ -188,14 +186,14 @@ Sea
 
 
 
-- Naval fab - EXPERIMENTAL - DONE
-`max_health` increased from 100 to 150 - FERRET DOESNT LIKE HP
+- Naval fab - DONE
+`max_health` increased from 100 to 150
 `move_speed` increased from 10 to 12
 `turn_speed` increased from 90 to 120
 
 
 
-- Piranha - EXPERIMENTAL - DONE
+- Piranha - DONE
 `move_speed` decreased from 20 to 18
 `max_health` decreased from 175 to 150
 projectile `lifetime` decreased from 3 to 1.5 s
@@ -217,10 +215,7 @@ Updated missile FX and model
 
 
 
-- Typhoon - REVISED - DONE
-
-- Squall
-
+- Squall (Typhoon drone)
 `build_metal_cost` updated from 90 to 30 to reflect the real metal cost of squalls
 `guard_radius` decreased from 250 to 100
 `surface_and_air` and `underwater` view range decreased from 150 to 50
