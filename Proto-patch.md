@@ -5,63 +5,9 @@ UI
 
 
 
-ranked disconnect timer
-
-
-ice planet icon now displaying properly
-
-
-news posts now work through rich's system
-
-
-Fixed UI bug where HP visually goes back up to 100% when at low HP
-
-
-Added discord logo to main menu
-
-
-added local mods and map packs fields to CMM ! !
-
-
-added twitch integration into base game
-
-
-
-updated replay browser 
--spoilers
--systems name
-
-
-fixed dynamic alliance
-
-
-Added annihilation mode
 
 
 Gameplay section of settings menu will now scroll and gives significantly more space per row, which stops mods from stacking
-
-
---------------------
-TO DO:
-
-
-YT integration?
-
-
-Areslord icons?
-
-
-
-
-
-
-
-
-General
-
-- Brand new Annihilation mode added! Players can continue fighting even after their commander is destroyed
-
-- Dynamic alliances gamemode will now correctly break alliances when all other opponents are dead unless "alliance victory" is enabled
 
 
 
@@ -221,8 +167,12 @@ Anti-missile weapon changed from beam to homing. Multiple Gill-Es will no longer
 
 - Drifter - DONE
 `damage` increased from 120 to 125
-`initial_velocity` increased from 150 to 200
-`max_velocity` increased from 150 to 200
+`initial_velocity` increased from 150 to 300
+`max_velocity` increased from 150 to 300
+ ammo `flight_type` set to `Seeking`
+ ammo `turn_rate` set to 30
+ ammo `lifetime` decreased from 2 to 1
+
 `idle_aim_delay` increased from 3 to 5
 `target_priorities` updated to
     `Mobile & Advanced`
@@ -230,7 +180,6 @@ Anti-missile weapon changed from beam to homing. Multiple Gill-Es will no longer
     `Mobile - Air`
     `Structure - Wall`
     `Wall`
-Weapon and ammo files changed from ballistic to seeking
 
 
 
