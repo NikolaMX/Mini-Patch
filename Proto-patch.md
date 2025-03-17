@@ -1,5 +1,59 @@
 Prot-patch
 
+UI
+
+
+
+
+ranked disconnect timer
+
+
+ice planet icon now displaying properly
+
+
+news posts now work through rich's system
+
+
+Fixed UI bug where HP visually goes back up to 100% when at low HP
+
+
+Added discord logo to main menu
+
+
+added local mods and map packs fields to CMM ! !
+
+
+added twitch integration into base game
+
+
+
+updated replay browser 
+-spoilers
+-systems name
+
+
+fixed dynamic alliance
+
+
+Added annihilation mode
+
+
+Gameplay section of settings menu will now scroll and gives significantly more space per row, which stops mods from stacking
+
+
+--------------------
+TO DO:
+
+
+YT integration?
+
+
+Areslord icons?
+
+
+
+
+
 
 
 
@@ -96,6 +150,7 @@ Structures
 - Teleporter - DONE
 `max_health` decreased from 9750 to 7000    
 `build_metal_cost` increased from 800 to 1000
+Corrected a nav mesh bug in the model
 
 
 - Catapult - DONE
