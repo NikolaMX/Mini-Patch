@@ -135,7 +135,8 @@ $(document).ready(function () {
             'commander_unicorn',
             "commander_beast_king",
             'bot_aa',
-            'radar_jammer'
+            'radar_jammer',
+
         ]);
 
         self.sendIconList = function () {
