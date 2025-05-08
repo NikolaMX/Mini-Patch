@@ -23,7 +23,7 @@ Base Commander
 - death nuke `splash_radius` increased from 110 to 130
 - death nuke `damage` icnreased from 2000 to 3000
 - death nuke `initial_radius` increased from 20.0 to 30
-- death nike `full_damage_splash_radius` increased from 20 to 30
+- death nuke `full_damage_splash_radius` increased from 20 to 30
 - `splash_damages_allies` set to `false`
 - upscaled visual effect of the commander death nuke 
 
