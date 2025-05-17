@@ -87,6 +87,7 @@ Corrected a nav mesh bug in the model
 `initial_velocity` increased from 80 to 120.0
 `max_velocity` increased from 80 to 120.0
 Updated missile FX and model
+Fixed syntax errors in the animation tree. Catapult animations will now play correctly.
 `target_priorities` added:
     `Mobile & Advanced`
     `Commander`
