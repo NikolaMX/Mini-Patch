@@ -1,22 +1,58 @@
+## General
+
+### Brand new game mode: **Annihilation**
+
+The fight can now continue even after your opponent's commander has been destroyed! Select from 3 options to decide what the new victory condition will be
+
+Can be set in the lobby to:
+- support commanders
+- fabricators
+- factories
+- or any combination of the 3!
+
+### Fix for Dynamic Alliances game mode: Alliances will now automatically break up when there is only 1 team remaining alive unless "alliance victory" is enabled 
 
 
-UI Unfinished:
-
-Gameplay section of settings menu will now scroll and gives significantly more space per row, which stops mods from stacking
-
+### System Editor:
+added CSG brush icons for all hidden CSG (courtesy of Ares Lord)
 
 
-Balance:
+### Lobby and UI:
+
+- added Twitch integration to main menu
+- added Youtube integration to main menu 
+- The News page will now correctly updae with information about the latest patch
+(thanks to rich for hosting the relevant services, check out his https://ggleaderboards.com)
+
+- added discord logo to main menu discord button
+
+- added visible timer to ranked disconnection, this just shows what was already happening
+
+- Separated out game name and system name in the replay browser
+- added a map pack section to the community mod manager
+- community mod manager now tells you if a mod is locally installed
 
 
-General
+- fixed bug where displayed hp would bug out at low values
+- fixed ice planets biome not visually showing in the load planet section
+
+- fixed metal weapons showing they draw power instead of metal(lob etc)
+- improved special weapon alerts behaviour (big orange alerts for planet smashing/laser)
+- planet list drop down is now automatically opened after landing
+
+
+
+
+## Balance:
+
+
+### General
 
 All units now leave the same amount of metal in their wreckage equal to half of their original build cost
 
 
 
-
-<> Commander <>
+### Commander
 
 Base Commander
 - `wreckage_health_frac` added and set to 1 (increase from the default 0.5)
@@ -29,7 +65,7 @@ Base Commander
 
 
 
-Air
+### Air
 
 - Base Flyer (applies to all air units)
 `wreckage_health_frac` increased from 0.7 to 1
@@ -69,7 +105,7 @@ death exlosion `splash_damages_allies` set to `false`
 
 
 
-Structures
+### Structures
 
 - Air Factory
 `factory_cooldown_time` increased from 2 to 4
@@ -101,7 +137,7 @@ Fixed syntax errors in the animation tree. Catapult animations will now play cor
 
 
 
-Land
+### Land
 
 - Base Bot
 `wreckage_health_frac` increased from 0.7 to 1
@@ -164,7 +200,8 @@ ammo `lifetime` increased from 0.5 to 1 (restored to original value now that the
 Anti-missile weapon changed from beam to homing. Multiple Gill-Es will no longer try to intercept the same missile
 
 
-Sea
+
+### Sea
 
  - Base Ship
 `wreckage_health_frac` increased from 0.7 to 1
@@ -196,7 +233,7 @@ Updated missile FX and model
 `surface_and_air` and `underwater` view range decreased from 150 to 50
 
 
-Orbital
+### Orbital
 
 - Omega
 side-guns `max_range` decreased from 150 to 130
