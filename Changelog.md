@@ -21,7 +21,7 @@ added CSG brush icons for all hidden CSG (courtesy of Ares Lord)
 
 - added Twitch integration to main menu
 - added Youtube integration to main menu 
-- The News page will now correctly updae with information about the latest patch
+- The News page will now correctly update with information about the latest patch
 (thanks to rich for hosting the relevant services, check out his https://ggleaderboards.com)
 
 - added discord logo to main menu discord button
@@ -40,6 +40,7 @@ added CSG brush icons for all hidden CSG (courtesy of Ares Lord)
 - improved special weapon alerts behaviour (big orange alerts for planet smashing/laser)
 - planet list drop down is now automatically opened after landing
 
+- removed the darkest black and blue team colors from the available selection
 
 
 
